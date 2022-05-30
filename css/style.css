@@ -18,14 +18,40 @@ body {
 
 .discord-logo, .menu, .login {
     height: 40px;
+}
+
+.login, .discord-logo {
+    width: 15%;
+}
+
+.menu {
+   width:35%;
+}
+
+.header-bottom {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    height: 400px;  
+    width: 50%;  
+}
+
+/*inizio debug rules*/
+.header-bottom.debug {
+    background-color: #00008b;
+}
+
+.discord-logo.debug, .menu.debug, .login.debug {
     background-color: #daa520;
     border: 2px dotted black;
 }
 
-.login, .discord-logo {
-    width: 200px;
+.header-content.debug {
+    background-color: #ee82ee;    
 }
 
-.menu {
-   width:400px;
-}
+/*fine debug rules*/
