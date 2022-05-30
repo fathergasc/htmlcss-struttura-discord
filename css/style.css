@@ -25,7 +25,7 @@ body {
 }
 
 .menu {
-   width:35%;
+   width: 40%;
 }
 
 .header-bottom {
@@ -40,6 +40,32 @@ body {
     width: 50%;  
 }
 
+.section-small {
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-small.gray, .section-big.gray {
+    background-color: #d3d3d3;
+}
+
+.img-column {
+    height: 500px;
+    width: 40%;
+}
+
+.text-column {
+    height: 500px;
+    width: 30%;
+}
+
+.section-big {
+    height: 900px;
+}
+
 /*inizio debug rules*/
 .header-bottom.debug {
     background-color: #00008b;
@@ -52,6 +78,16 @@ body {
 
 .header-content.debug {
     background-color: #ee82ee;    
+}
+
+.img-column.debug {
+    background-color: #1e90ff;
+    border: 2px dotted black;
+}
+
+.text-column.debug {
+    background-color: #ffc0cb;
+    border: 2px dotted black;
 }
 
 /*fine debug rules*/
