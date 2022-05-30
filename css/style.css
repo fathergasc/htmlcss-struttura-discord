@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+}
+
+.header-top {
+    height: 100px;
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discord-logo, .menu, .login {
+    height: 40px;
+    background-color: #daa520;
+    border: 2px dotted black;
+}
+
+.login, .discord-logo {
+    width: 200px;
+}
+
+.menu {
+   width:400px;
+}
