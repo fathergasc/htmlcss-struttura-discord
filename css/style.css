@@ -63,7 +63,15 @@ body {
 }
 
 .section-big {
-    height: 900px;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-big-container {
+    height: 1000px;
+    width: 70%;
 }
 
 /*inizio debug rules*/
@@ -88,6 +96,10 @@ body {
 .text-column.debug {
     background-color: #ffc0cb;
     border: 2px dotted black;
+}
+
+.section-big-container.debug {
+    background-color: #228b22;
 }
 
 /*fine debug rules*/
