@@ -16,6 +16,13 @@ body {
     align-items: center;
 }
 
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .discord-logo {
     text-align: left;
     line-height: 40px;
@@ -38,11 +45,21 @@ body {
 }
 
 .login, .discord-logo {
-    width: 15%;
+    width: 25%;
 }
 
 .menu {
-   width: 30%;
+   width: 50%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
 }
 
 .header-bottom {
@@ -60,6 +77,7 @@ body {
 .section-small {
     height: 600px;
     background-color: white;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,12 +89,12 @@ body {
 
 .img-column {
     height: 500px;
-    width: 35%;
+    width: 60%;
 }
 
 .text-column {
     height: 500px;
-    width: 25%;
+    width: 40%;
 }
 
 .section-big {
@@ -88,30 +106,37 @@ body {
 
 .section-big-container {
     height: 1000px;
-    width: 60%;
+    width: 100%;
 }
 
 footer {
     background-color: #23272a;
-    height: 700px;
+    height: 800px;
 }
 
 .footer-top {
-    height: 550px;
+    height: 650px;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
-    border-bottom: 2px solid gray;
+    width: 100%;
 }
 
 .socials {
-    height: 500px;
-    width: 20%;
+    height:600px;
+    width: calc(100% / 6 * 2);
 }
 
 .contacts {
-    height: 500px;
-    width: 10%;
+    height: 600px;
+    width: calc(100% / 6);
+}
+
+.footer-top-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
 }
 
 .footer-bottom {
@@ -119,6 +144,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    border-top: 3px solid gray;
 }
 
 .footer-bottom-container {
