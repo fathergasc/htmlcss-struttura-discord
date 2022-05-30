@@ -16,6 +16,23 @@ body {
     align-items: center;
 }
 
+.discord-logo {
+    text-align: left;
+    line-height: 40px;
+    padding-left: 5px;
+}
+
+.menu {
+    text-align: center;
+    line-height: 40px;
+}
+
+.login {
+    text-align: right;
+    line-height: 40px;
+    padding-right: 5px;
+}
+
 .discord-logo, .menu, .login {
     height: 40px;
 }
@@ -25,7 +42,7 @@ body {
 }
 
 .menu {
-   width: 40%;
+   width: 30%;
 }
 
 .header-bottom {
@@ -54,12 +71,12 @@ body {
 
 .img-column {
     height: 500px;
-    width: 40%;
+    width: 35%;
 }
 
 .text-column {
     height: 500px;
-    width: 30%;
+    width: 25%;
 }
 
 .section-big {
@@ -71,7 +88,59 @@ body {
 
 .section-big-container {
     height: 1000px;
-    width: 70%;
+    width: 60%;
+}
+
+footer {
+    background-color: #23272a;
+    height: 700px;
+}
+
+.footer-top {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.socials {
+    height: 500px;
+    width: 20%;
+}
+
+.contacts {
+    height: 500px;
+    width: 10%;
+}
+
+.footer-bottom {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-bottom-container {
+    height: 90px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discord-logo-footer {
+    height: 40px;
+    width: 8%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.sign-in {
+    height: 40px;
+    width: 10%;
+    line-height: 40px;
+    text-align: center;
 }
 
 /*inizio debug rules*/
@@ -100,6 +169,26 @@ body {
 
 .section-big-container.debug {
     background-color: #228b22;
+    border: 2px dotted black;
+}
+
+.socials.debug {
+    background-color: #f08080;
+    border: 2px dotted black;
+}
+
+.contacts.debug {
+    background-color: #20b2aa;
+    border: 2px dotted white;
+}
+
+.footer-bottom-container.debug {
+    background-color: #7fffd4;
+}
+
+.discord-logo-footer.debug, .sign-in.debug {
+  background-color: #ffb6c1;
+  border: 2px dotted black;
 }
 
 /*fine debug rules*/
