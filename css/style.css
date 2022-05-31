@@ -5,12 +5,11 @@
 }
 
 body {
-    margin: auto;
+    margin: 0 auto;
 }
 
 .header-top {
     height: 100px;
-    background-color: #add8e6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +63,7 @@ li {
 
 .header-bottom {
     height: 500px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,6 +170,11 @@ footer {
 }
 
 /*inizio debug rules*/
+
+.header-top.debug {
+    background-color: #add8e6;
+}
+
 .header-bottom.debug {
     background-color: #00008b;
 }
